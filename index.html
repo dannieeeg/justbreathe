@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Breathe</title>
+    <link rel="stylesheet" href="style.css">
+    <!--GoogleFonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--title use @import for script font-->
+    <div class="input">
+        <label> Just Take A <strong>Deep</strong> Breath</label>
+        <select class="breath-count-input">
+            <option value ="3">3</option>
+            <option value ="5">5</option>
+            <option value ="7">7</option>
+        </select>
+    </div>
+    <!--progress outline, think loading circle-->
+    <!--visuals-->
+    <div class="circle-wrap">
+        <div class="circle-outline"></div>
+        <div class="circle-progress"></div>
+    </div>
+    <p class="breaths">Breaths remaining: <span class="breaths-text">3</span></p>
+    <p class="instructions">Breathe In || Breathe Out</p>
+    <button class="start">Let's Breathe</button>
+    
+    <script src="app.js"></script>
+</body>
+</html>
